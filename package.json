@@ -1,0 +1,22 @@
+{
+	"name": "battleground-tournament",
+	"version": "1.0.0",
+	"description": "Battleground tournament community in bangladesh",
+	"main": "server.js",
+	"scripts": {
+		"start": "node api/server.js",
+		"server": "nodemon api/server.js"
+	},
+	"keywords": [
+		"pubg-tournament",
+		"freefire-tournament"
+	],
+	"author": "Harun Or Rashid",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.16.4",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.7"
+	}
+}
